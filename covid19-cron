@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# run covid-19 files 
+# git add, comit and push
+
+/usr/local/bin/papermill covid-19-matplotlib.ipynb covid-19-matplotlib-run.ipynb &&
+	/usr/local/bin/papermill covid-19-plotly.ipynb covid-19-plotly-run.ipynb &&
+	git add . &&
+	git commit -m "update" && 
+	git push
+
