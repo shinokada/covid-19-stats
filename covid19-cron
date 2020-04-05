@@ -4,11 +4,10 @@
 
 dir=~/DataScience/covid-19-stats
 
-
 cd $dir
-/usr/local/bin/papermill covid-19-matplotlib.ipynb covid-19-matplotlib-run.ipynb 
-/usr/local/bin/papermill covid-19-plotly.ipynb covid-19-plotly-run.ipynb 
-git add . &&
-git commit -m "update" && 
+papermill covid-19-matplotlib.ipynb ./cron/covid-19-matplotlib.ipynb 
+papermill covid-19-plotly.ipynb ./covid-19-plotly.ipynb
+git add . 
+git commit -m "Update"
 git push
 
