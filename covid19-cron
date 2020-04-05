@@ -7,7 +7,7 @@ path=/usr/local/bin
 
 cd $dir
 $path/papermill covid-19-matplotlib.ipynb ./cron/covid-19-matplotlib.ipynb 
-$path/papermill covid-19-plotly.ipynb .cron/covid-19-plotly.ipynb 
+$path/papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
 git add . 
 git commit -m "update" 
 git push
