@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+dir=$(pwd)
+echo $dir
