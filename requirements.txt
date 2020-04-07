@@ -1,0 +1,4 @@
+numpy==1.18.*
+matplotlib==3.*
+pandas==1.*
+plotly==4.6.*

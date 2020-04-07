@@ -2,7 +2,7 @@
 # run covid-19 files 
 # git add, comit and push
 
-dir=~/DataScience/covid-19-stats
+dir=/Users/shinokada/DataScience/covid-19-stats
 path=/usr/local/bin
 
 cd $dir
