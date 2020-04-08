@@ -11,4 +11,5 @@ $path/papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb
 git add . 
 git commit -m "update" 
 git push
+/usr/local/bin/terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
 
