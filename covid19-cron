@@ -3,13 +3,13 @@
 # git add, comit and push
 
 dir=/Users/shinokada/DataScience/covid-19-stats
-path=/usr/local/bin
+papermill=/usr/local/bin/papermill
+notifier=/usr/local/bin/terminal-notifier
 
 cd $dir
 $path/papermill covid-19-matplotlib.ipynb ./cron/covid-19-matplotlib.ipynb 
-$path/papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
+$papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
 git add . 
 git commit -m "update" 
 git push
-/usr/local/bin/terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
-
+$notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
