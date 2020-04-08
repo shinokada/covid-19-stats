@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# run covid-19 files 
+# git add, comit and push
+
+dir=/Users/shinokada/DataScience/covid-19-stats
+
+cd $dir
+papermill covid-19-matplotlib.ipynb ./cron/covid-19-matplotlib.ipynb 
+papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
+git add . 
+git commit -m "update" 
+git push
+terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
