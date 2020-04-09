@@ -14,4 +14,4 @@ git commit -m "update"
 git push
 $notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
 now=$(date)
-echo "Update completed: $now"
+echo "Cron job update completed at $now"
