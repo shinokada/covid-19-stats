@@ -5,6 +5,7 @@
 
 papermill covid-19-matplotlib.ipynb ./cron/covid-19-matplotlib.ipynb 
 papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
+papermill uk.ipynb ./cron/uk.ipynb 
 git add . 
 git commit -m "update" 
 git push
