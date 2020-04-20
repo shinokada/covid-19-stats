@@ -8,6 +8,7 @@ papermill covid-19-matplotlib-logarithmic.ipynb ./cron/covid-19-matplotlib-logar
 papermill covid-19-plotly.ipynb ./cron/covid-19-plotly.ipynb 
 papermill covid-19-plotly-logarithmic.ipynb ./cron/covid-19-plotly-logarithmic.ipynb
 papermill uk.ipynb ./cron/uk.ipynb 
+papermill Dropdown-interactive.ipynb ./cron/Dropdown-interactive.ipynb
 
 git add . 
 git commit -m "update" 
