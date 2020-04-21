@@ -5,16 +5,16 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-04-20T23:00:04.526318Z",
-     "iopub.status.busy": "2020-04-20T23:00:04.525616Z",
-     "iopub.status.idle": "2020-04-20T23:00:04.531330Z",
-     "shell.execute_reply": "2020-04-20T23:00:04.532103Z"
+     "iopub.execute_input": "2020-04-21T23:00:04.371007Z",
+     "iopub.status.busy": "2020-04-21T23:00:04.370194Z",
+     "iopub.status.idle": "2020-04-21T23:00:04.398383Z",
+     "shell.execute_reply": "2020-04-21T23:00:04.399153Z"
     },
     "papermill": {
-     "duration": 0.017304,
-     "end_time": "2020-04-20T23:00:04.532497",
+     "duration": 0.039284,
+     "end_time": "2020-04-21T23:00:04.399421",
      "exception": false,
-     "start_time": "2020-04-20T23:00:04.515193",
+     "start_time": "2020-04-21T23:00:04.360137",
      "status": "completed"
     },
     "tags": []
@@ -30,16 +30,16 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-04-20T23:00:04.552703Z",
-     "iopub.status.busy": "2020-04-20T23:00:04.550003Z",
-     "iopub.status.idle": "2020-04-20T23:00:05.732629Z",
-     "shell.execute_reply": "2020-04-20T23:00:05.733111Z"
+     "iopub.execute_input": "2020-04-21T23:00:04.417285Z",
+     "iopub.status.busy": "2020-04-21T23:00:04.416476Z",
+     "iopub.status.idle": "2020-04-21T23:00:05.396045Z",
+     "shell.execute_reply": "2020-04-21T23:00:05.396850Z"
     },
     "papermill": {
-     "duration": 1.192821,
-     "end_time": "2020-04-20T23:00:05.733279",
+     "duration": 0.990265,
+     "end_time": "2020-04-21T23:00:05.397091",
      "exception": false,
-     "start_time": "2020-04-20T23:00:04.540458",
+     "start_time": "2020-04-21T23:00:04.406826",
      "status": "completed"
     },
     "tags": []
@@ -68,16 +68,16 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-04-20T23:00:05.761624Z",
-     "iopub.status.busy": "2020-04-20T23:00:05.760939Z",
-     "iopub.status.idle": "2020-04-20T23:00:05.928539Z",
-     "shell.execute_reply": "2020-04-20T23:00:05.929018Z"
+     "iopub.execute_input": "2020-04-21T23:00:05.413564Z",
+     "iopub.status.busy": "2020-04-21T23:00:05.412719Z",
+     "iopub.status.idle": "2020-04-21T23:00:05.803699Z",
+     "shell.execute_reply": "2020-04-21T23:00:05.804501Z"
     },
     "papermill": {
-     "duration": 0.191996,
-     "end_time": "2020-04-20T23:00:05.929185",
+     "duration": 0.401792,
+     "end_time": "2020-04-21T23:00:05.804737",
      "exception": false,
-     "start_time": "2020-04-20T23:00:05.737189",
+     "start_time": "2020-04-21T23:00:05.402945",
      "status": "completed"
     },
     "tags": []
@@ -105,16 +105,16 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2020-04-20T23:00:05.956644Z",
-     "iopub.status.busy": "2020-04-20T23:00:05.955876Z",
-     "iopub.status.idle": "2020-04-20T23:00:06.094824Z",
-     "shell.execute_reply": "2020-04-20T23:00:06.095644Z"
+     "iopub.execute_input": "2020-04-21T23:00:05.822407Z",
+     "iopub.status.busy": "2020-04-21T23:00:05.820953Z",
+     "iopub.status.idle": "2020-04-21T23:00:06.258722Z",
+     "shell.execute_reply": "2020-04-21T23:00:06.259365Z"
     },
     "papermill": {
-     "duration": 0.162726,
-     "end_time": "2020-04-20T23:00:06.095871",
+     "duration": 0.448928,
+     "end_time": "2020-04-21T23:00:06.259631",
      "exception": false,
-     "start_time": "2020-04-20T23:00:05.933145",
+     "start_time": "2020-04-21T23:00:05.810703",
      "status": "completed"
     },
     "tags": []
@@ -142,10 +142,10 @@
    "execution_count": null,
    "metadata": {
     "papermill": {
-     "duration": 0.005665,
-     "end_time": "2020-04-20T23:00:06.108300",
+     "duration": 0.004022,
+     "end_time": "2020-04-21T23:00:06.268925",
      "exception": false,
-     "start_time": "2020-04-20T23:00:06.102635",
+     "start_time": "2020-04-21T23:00:06.264903",
      "status": "completed"
     },
     "tags": []
@@ -173,14 +173,14 @@
    "version": "3.7.7"
   },
   "papermill": {
-   "duration": 4.169343,
-   "end_time": "2020-04-20T23:00:06.298388",
+   "duration": 5.461155,
+   "end_time": "2020-04-21T23:00:07.381963",
    "environment_variables": {},
    "exception": null,
    "input_path": "covid-19-data.ipynb",
    "output_path": "./latest/covid-19-data.ipyn",
    "parameters": {},
-   "start_time": "2020-04-20T23:00:02.129045",
+   "start_time": "2020-04-21T23:00:01.920808",
    "version": "2.1.0"
   }
  },
