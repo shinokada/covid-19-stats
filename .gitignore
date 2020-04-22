@@ -24,3 +24,4 @@ package-lock.json
 *.swo
 .DS_Store
 /__pycache__
+.mapbox_token
