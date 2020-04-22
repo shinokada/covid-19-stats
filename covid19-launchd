@@ -3,7 +3,7 @@
 # git add, comit and push
 
 
-papermill covid-19-data.ipynb ./latest/covid-19-data.ipyn
+papermill covid-19-data.ipynb ./latest/covid-19-data.ipynb
 papermill multiplot.ipynb ./latest/multiplot.ipynb 
 papermill covid-19-matplotlib.ipynb ./latest/covid-19-matplotlib.ipynb 
 papermill covid-19-matplotlib-logarithmic.ipynb ./latest/covid-19-matplotlib-logarithmic.ipynb
