@@ -17,6 +17,6 @@ papermill Dropdown-interactive.ipynb ./latest/Dropdown-interactive.ipynb
 git add . 
 git commit -m "update" 
 git push
-terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://mybinder.org/v2/gh/shinokada/covid-19-stats/master"
+terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://nbviewer.jupyter.org/github/shinokada/covid-19-stats/tree/master/latest/"
 now=$(date)
 echo "launchd update completed at $now"
