@@ -14,9 +14,10 @@ papermill data_scraping.ipynb ./latest/data_scraping.ipynb
 papermill uk-japan.ipynb ./latest/uk-japan.ipynb 
 papermill Dropdown-interactive.ipynb ./latest/Dropdown-interactive.ipynb
 
+now=$(date)
 git add . 
-git commit -m "update" 
+git commit -m "update $now" 
 git push
 terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://nbviewer.jupyter.org/github/shinokada/covid-19-stats/tree/master/latest/"
-now=$(date)
+
 echo "launchd update completed at $now"
