@@ -16,7 +16,7 @@ papermill Dropdown-interactive.ipynb ./latest/Dropdown-interactive.ipynb
 
 now=$(date)
 git add . 
-git commit -m "update $now" 
+git commit -m "update at $now" 
 git push
 terminal-notifier -title Covid19 -subtitle "Daily Updated" -message "Completed" -open "https://nbviewer.jupyter.org/github/shinokada/covid-19-stats/tree/master/latest/"
 
