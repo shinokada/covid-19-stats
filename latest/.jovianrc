@@ -1,0 +1,10 @@
+{
+  "notebooks": {
+    "covid-19-data.ipynb": {
+      "slug": "3762cb99833f48c99125688d4cc303c5"
+    },
+    "covid-19-matplotlib-logarithmic.ipynb": {
+      "slug": "a79175529c874bfab56ddcfaf0a06d39"
+    }
+  }
+}
